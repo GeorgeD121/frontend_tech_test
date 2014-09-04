@@ -109,8 +109,10 @@ nav{
 }
 
 .logo{
-    background-image: url("../img/logo_larg.png");
+    background-image: url("../img/logo_large.png");
+    background-repeat: no-repeat;
     height: 45px;
+    width: 45px;
     margin-top: 18px;
     float: left;
     margin-left: 16%;
@@ -149,7 +151,9 @@ ul{
 
 .scrolled .logo{
     background-image: url("../img/logo_small.png");
-    height: 32px;
+    background-repeat: no-repeat;
+    height: 33px;
+    width: 32px;
 }
 
 #hero .owl-item img{
@@ -259,6 +263,12 @@ ul{
     margin-left: 16%;
 }
 
+@media screen and (max-width: 1400px){
+    #dungeon_master{
+        margin-left: 8%;
+    }
+}
+
 .master_box{
     float: left;
     width: 365px;
@@ -266,6 +276,7 @@ ul{
     height: 445px;
     background-color: #1cceca;
     position: relative;
+    margin-bottom: 20px;
 }
 
 #master_img1{
@@ -323,7 +334,7 @@ ul{
 }
 
 .content_grid{
-    margin-top: 100px;
+    margin-top: 80px;
     float: left;
     position: relative;
     background-color: #f2f2f2;
@@ -344,6 +355,30 @@ ul{
     background-color: white;
     margin-right: 25px;
     margin-bottom: 30px;
+}
+
+.content_box span{
+    color: #27d9c6;
+    font-size: 1.4em;
+    margin-top: 39px;
+    margin-left: 22px;
+}
+.content_box p{
+    color: #0e426a;
+    font-size: 2em;
+    margin-top: 39px;
+    margin-left: 22px;
+}
+.content_image{
+    background-color: #0e426a;
+    height: 300px;
+    width: 100%;
+}
+
+.content_video{
+    background-color: #0e426a;
+    height: 205px;
+    width: 100%;
 }
 
 
