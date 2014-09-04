@@ -265,7 +265,7 @@ ul{
 
 @media screen and (max-width: 1400px){
     #dungeon_master{
-        margin-left: 8%;
+        margin-left: 5%;
     }
 }
 
@@ -357,13 +357,14 @@ ul{
     margin-bottom: 30px;
 }
 
-.content_box span{
+.label{
     color: #27d9c6;
     font-size: 1.4em;
     margin-top: 39px;
     margin-left: 22px;
+    position: relative;
 }
-.content_box p{
+.description{
     color: #0e426a;
     font-size: 2em;
     margin-top: 39px;
