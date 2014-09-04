@@ -109,6 +109,8 @@ nav{
 }
 
 .logo{
+    background-image: url("../img/logo_larg.png");
+    height: 45px;
     margin-top: 18px;
     float: left;
     margin-left: 16%;
@@ -143,6 +145,11 @@ ul{
 
 .scrolled img{
     margin-top: 10px;
+}
+
+.scrolled .logo{
+    background-image: url("../img/logo_small.png");
+    height: 32px;
 }
 
 #hero .owl-item img{
@@ -315,6 +322,29 @@ ul{
     margin-top: 18px;
 }
 
+.content_grid{
+    margin-top: 100px;
+    float: left;
+    position: relative;
+    background-color: #f2f2f2;
+}
+.content_grid h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #0e426a;
+    font-size: 2.4em;
+}
+.content_box_wrap{
+    margin-left: 16%;
+}
+.content_box{
+    width: 364px;
+    height: 445px;
+    float: left;
+    background-color: white;
+    margin-right: 25px;
+    margin-bottom: 30px;
+}
 
 
 
