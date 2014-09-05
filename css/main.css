@@ -385,12 +385,13 @@ ul{
 }
 .page_link_wrapper{
     width: 71px;
-    height: 53px;
+    height: 57px;
     background-color: #dbe0e4;
     float: left;
     margin-right: 25px;
+    margin-bottom: 10px;
     border: 1px;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 .page_link{
@@ -398,10 +399,19 @@ ul{
     float: left;
     text-align: center;
     font-size: 2em;
-    margin-left: 32px;
-    margin-top: 26px;
+    padding-left: 30px;
+    padding-top: 20px;
+    text-decoration: none;
+    color: #0e426a;
 }
 
+
+.page_link_wrapper:active{
+    background-color: #27d9c6;
+}
+.page_link:active{
+    color: white;
+}
 
 
 @media screen and (max-width: 1400px){
@@ -419,8 +429,34 @@ ul{
     .content_box{
         width: 300px;
     }
+
+    .slide{
+        height: 750px;
+    }
 }
 
+@media screen and (max-width: 700px){
+    .nav_link{
+        padding-right: 10px;
+    }
+
+    .cta_places{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    #hero h1{
+        font-size: 4em;
+    }
+
+    .slide{
+        height: 550px;
+    }
+
+    .slider_cont{
+        padding-top: 150px;
+    }
+}
 
 /* ==========================================================================
    Helper classes
