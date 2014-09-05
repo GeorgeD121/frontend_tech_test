@@ -154,6 +154,7 @@ ul{
     background-repeat: no-repeat;
     height: 33px;
     width: 32px;
+    margin-top: 10px;
 }
 
 #hero .owl-item img{
@@ -422,10 +423,6 @@ ul{
         width: 300px;
     }
 
-    #dungeon_master{
-        margin-left: 16%;
-    }
-
     .content_box{
         width: 300px;
     }
@@ -437,7 +434,16 @@ ul{
 
 @media screen and (max-width: 700px){
     .nav_link{
-        padding-right: 10px;
+        padding-right: 5px;
+        margin-left: 5px;
+    }
+
+    ul{
+        margin-right: 5px;
+        margin-left: 5%;
+    }
+    .logo{
+        margin-left: 10%;
     }
 
     .cta_places{
@@ -456,6 +462,18 @@ ul{
     .slider_cont{
         padding-top: 150px;
     }
+}
+
+@media screen and (max-width: 700px){
+
+    #dungeon_master{
+        margin-left: 5%;
+    }
+
+    .content{
+        margin-left: 5%;
+    }
+
 }
 
 /* ==========================================================================
