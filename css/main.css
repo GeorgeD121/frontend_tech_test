@@ -407,12 +407,17 @@ ul{
 }
 
 
-.page_link_wrapper:active{
+
+.page_link_wrapper a:hover{
     background-color: #27d9c6;
-}
-.page_link:active{
     color: white;
 }
+
+.page_link_wrapper:hover{
+    background-color: #27d9c6;
+    color: white;
+}
+
 
 
 @media screen and (max-width: 1400px){
