@@ -11,14 +11,17 @@ $(document).ready(function() {
     transitionStyle:"fade"
   });
 
+ $(window).scroll(function () {
+    if ($(document).scrollTop() > 20) {
+        $("nav").addClass("scrolled");
+    } else {
+        $("nav").removeClass("scrolled");
+    }
+  });
+
+  $('.content_grid').pajinate({
+      items_per_page: 6
+  });
 });
 
-$(document).ready(function () {
-    $(window).scroll(function () {
-        if ($(document).scrollTop() > 20) {
-            $("nav").addClass("scrolled");
-        } else {
-            $("nav").removeClass("scrolled");
-        }
-    });
-});
+
