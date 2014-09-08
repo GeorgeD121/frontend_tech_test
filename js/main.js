@@ -25,7 +25,7 @@ $(document).ready(function() {
 
   jQuery(document).ready(function(){
     var homeTopPosition = jQuery('#hero').offset().top;
-    var aboutTopPosition = jQuery('.about_us').offset().top;
+    var aboutTopPosition = jQuery('.owl-pagination').offset().top;
     var contentTopPosition = jQuery('.content_grid').offset().top;
     jQuery('#home_nav').click(function(){
         jQuery('html, body').animate({scrollTop:homeTopPosition}, 'slow');
