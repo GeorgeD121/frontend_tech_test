@@ -554,6 +554,10 @@ footer p{
         margin-left: 0;
         margin-top: 10px;
     }
+
+    footer p{
+        display: block;
+    }
 }
 @media screen and (max-width: 350px){
 
