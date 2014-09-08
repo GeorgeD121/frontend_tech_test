@@ -208,6 +208,7 @@ ul{
     border-radius: 3px;
     background-color: white;
     float: left;
+    cursor: pointer;
 }
 
 .cta p{
@@ -216,16 +217,30 @@ ul{
     font-size: 1.5em;
 }
 
-.cta_p1{
+#cta1{
     color: #27d9c6;
 }
 
-.cta_p2{
+#cta2{
     color: #2f27d9;
 }
 
-.cta_p3{
+#cta3{
     color: #d95d27;
+}
+
+.cta:active{
+    background: transparent;
+}
+
+#cta1:active{
+    color: white;
+}
+#cta2:active{
+    color: white;
+}
+#cta3:active{
+    color: white;
 }
 
 .cta_places{
@@ -239,6 +254,22 @@ ul{
     text-transform: uppercase;
     color: white;
     font-size: 1.5em;
+    cursor: pointer;
+}
+
+.cta_places:active{
+    background: white;
+}
+
+#cta_place1:active{
+    color: #27d9c6;
+}
+#cta_place2:active{
+    color: #2f27d9;
+}
+
+#cta_place3:active{
+    color: #d95d27;
 }
 
 .about_us{
