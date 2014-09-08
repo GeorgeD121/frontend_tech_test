@@ -8,4 +8,4 @@ The hero slider uses Owl Carousel
 
 Pajinate was used for the content boxes pagination.
 
-Code written by myself can be found in the index.html, main.css and js/main.js directories.
+Code written by myself can be found in the index.html, main.css (line 100 to 568) and js/main.js directories.
