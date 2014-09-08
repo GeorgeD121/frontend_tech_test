@@ -362,7 +362,7 @@ ul{
     font-size: 1.6em;
     color: #0e426a;
     text-align: left;
-    margin-left: 24px;
+    margin-left: 19px;
     margin-top: 18px;
     cursor: pointer;
 }
@@ -451,6 +451,7 @@ ul{
     margin-bottom: 10px;
     border: 1px;
     border-radius: 4px;
+    color: #0e426a;
 }
 
 
@@ -462,7 +463,6 @@ ul{
     padding-left: 30px;
     padding-top: 20px;
     text-decoration: none;
-    color: #0e426a;
 }
 
 .page_link_wrapper a:hover{
