@@ -382,6 +382,13 @@ ul{
     font-size: 1.6em;
     margin-left: 22px;
 }
+
+.img_description{
+    color: #0e426a;
+    font-size: 2em;
+    margin-top: 10px;
+    margin-left: 22px;
+}
 .content_image{
     background-color: #0e426a;
     height: 300px;
@@ -437,29 +444,29 @@ ul{
 
 footer{
     width: 100%;
-    height: 60px;
+    height: 32px;
     color: #27d9c6;
     float: left;
     position:relative;
+    padding-top: 28px;
 }
 
 footer p{
     margin-left: 16%;
     display: inline;
-    margin-top: 28px;
     font-size: 1.4em;
 }
 
 
 @media screen and (max-width: 1400px){
+    #dungeon_master, .page_navigation, .content: {
+        margin-left: 14%;
+    }
+
     .master_cta{
         margin-left: 130px;
     }
-    .master_box{
-        width: 300px;
-    }
-
-    .content_box{
+    .master_box, .content_box{
         width: 300px;
     }
 
@@ -498,7 +505,7 @@ footer p{
         padding-top: 150px;
     }
 }
-@media screen and (max-width: 463px){
+@media screen and (max-width: 484px){
     .cta_places{
         margin-left: 0;
         margin-top: 10px;
@@ -506,11 +513,7 @@ footer p{
 }
 @media screen and (max-width: 350px){
 
-    #dungeon_master{
-        margin-left: 5%;
-    }
-
-    .content{
+    #dungeon_master, .content{
         margin-left: 5%;
     }
 
